@@ -1,0 +1,9 @@
+# Runs in Google Colab (T4 GPU). Qwen3-8B is served by Ollama, installed by the notebooks.
+pymupdf4llm==1.28.2      # 2.0 on PyPI is an empty package
+pymupdf==1.28.2
+chromadb
+sentence-transformers
+torch
+anthropic
+pandas
+requests

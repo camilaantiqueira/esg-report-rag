@@ -1,0 +1,17 @@
+# Report PDFs: large and owned by the companies (download links in Notebook 01)
+data/pdfs/
+*.pdf
+
+# Generated data: rebuilt by Notebook 01
+chroma_db*/
+data/pages_cache.json
+data/vision_cache.json
+data/chunks*.json
+
+# Secrets (the notebooks read ANTHROPIC_API_KEY from Colab Secrets)
+.env
+*.key
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
